@@ -1,0 +1,35 @@
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+  
+}
+
+.content .username {
+  color: #c21313; /* Change to your preferred color */
+  font-weight: bold; /* Change to your preferred font-weight */
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .grid-item {
+    width: 100%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+    overflow: hidden; /* Ensure images don't overflow */
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  
